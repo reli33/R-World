@@ -1,0 +1,51 @@
+#con_p{
+    height: auto; 
+    background-image: url(allie_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-attachment: fixed;
+    margin-top: 0px;
+    background-color: #000000;
+    background-blend-mode: lighten;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+#he_2{
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+}
+#he_2 h1{
+    margin: 10px;
+    float: left;
+    color: rgba(32, 31, 31, 0.61);
+    text-shadow:2px 2px 1px #FFD700;
+}
+#he_2 .logo{
+    float: left;
+    height: fit-content;
+    width: 60px;
+    transition: transform 2.0s ease;
+    transform: rotateY(360deg);
+}
+.fa-brands fa-instagram fa-5x{
+    background-color: aliceblue;
+}
+#co_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#co_1 ul{
+    display: flex;
+    flex-direction: column;
+}
+#co_1 li{
+    padding: 10%;
+}
+#co_1 i:hover{
+    background-color: rgba(255, 255, 255, 0.473);
+}
