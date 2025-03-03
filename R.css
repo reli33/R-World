@@ -1,0 +1,99 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    margin-top:16px ;
+    background-image: url(bg1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+#R1{
+    color: rgba(175, 30, 30, 0.548);
+    text-shadow:2px 2px 1px black ;
+    float: left;
+    padding-left:2%;
+}
+#R1:hover{
+    transition: transform 4.2s ease;
+    transform: rotateY(360deg);
+}
+#R2{
+    float: left;
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+#R2 ul{
+    list-style: none;
+    display: flex;
+}
+#R2 a{
+    font-size: 25px;
+    text-shadow:2px 2px 1px black ;
+    padding-right: 44px;
+    text-decoration: none;
+    color: white;
+}
+#R2 a:hover{
+    color: rgba(177, 169, 146, 0.548);
+    
+}
+#R2 li:hover{
+    transition: transform 2.0s ease;
+    transform: rotateY(45deg);
+}
+#R3{
+    float: left;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50%;
+    margin-left: 30%;
+}
+#R3:hover{
+    transition: transform 3.5s ease;
+    transform: rotateZ(360deg);
+    transition-duration: 20.0s;
+}
+#R4{
+    margin-top: 38%;
+    margin: auto;
+    max-width: fit-content;
+    width: 100%;
+}
+#R4 ul{
+    margin-top: 5%;
+    list-style: none;
+    display: flex;
+    float: left;
+}
+#R4 a{
+    margin: 50% 50px;
+}
+.fa-brands.fa-instagram.fa-3x{
+    color:rgba(211, 162, 27, 0.774);
+}
+.fa-brands.fa-instagram.fa-3x:hover{
+    color:rgba(177, 166, 135, 0.5348);
+}
+.fa-brands.fa-youtube.fa-3x{
+    color: rgba(252, 1, 1, 0.671);
+}
+.fa-brands.fa-youtube.fa-3x:hover{
+    color: rgba(156, 99, 99, 0.329);
+}
+.fa-brands.fa-spotify.fa-3x{
+    color: rgba(0, 128, 0, 0.692);
+}
+.fa-brands.fa-spotify.fa-3x:hover{
+    color: rgba(105, 161, 105, 0.329);
+}
